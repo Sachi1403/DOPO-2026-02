@@ -15,7 +15,7 @@ Este repositorio documenta el desarrollo progresivo del simulador para la máqui
 ## 🚀 Estado de los Ciclos
 
 * **Ciclo 1: Simulador Base y Modelo Inicial (🟢 Completado)**  
-  Construcción de la estructura base del simulador en Java/BlueJ, modelos de secuencia y clases en Astah, gestión de ruedas y símbolos con estándar CSS, lógica de giros (`spin`) y estado ganador (`isJackpot`)[cite: 1].
+  Construcción de la estructura base del simulador en Java/BlueJ, modelos de secuencia y clases en Astah, gestión de ruedas y símbolos con estándar CSS, lógica de giros (`spin`) y estado ganador (`isJackpot`).
   
 * **Ciclo 2: [Próximamente]**  
   *Espacio reservado para la siguiente iteración.*
