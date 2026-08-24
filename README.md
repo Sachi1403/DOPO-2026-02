@@ -1,52 +1,27 @@
-# SlotMachine - Ciclo 1
+# Slot Machine - Proyecto DOPO (2026-2)
 
-Simulador de máquina tragamonedas en Java/BlueJ basado en el problema *Slot Machine* (2025).
-
-## Tecnologías y Requisitos
-* **Lenguaje:** Java 8+ / BlueJ
-* **Modelado:** Astah Professional (Diagramas UML)
-* **Gráficos:** Paquete `shapes` extendido (`Canvas`, `Rectangle`)
+**Autor:** David Santiago Aldana Gonzalez y Juan Camilo Alvarez 
+**Asignatura:** Desarrollo Orientado por Objetos (DOPO)  
+**Institución:** Escuela Colombiana de Ingeniería Julio Garavito  
 
 ---
 
-## Decisiones de Diseño
-* **Lista única:** `symbols` vive en `SlotMachine` y se comparte con `Wheel` (`{readOnly for Wheel}`).
-* **Posiciones (base 1):** Ajustadas automáticamente con `clamp()`.
-* **Manejo de errores:** Atributo `lastOk` guarda el estado. `report()` lanza `JOptionPane` solo si `isVisible == true`.
-* **Ajuste de índices:** Métodos `adjustAfterDelete` y `adjustAfterInsert` en `Wheel` para mantener el color correcto tras cambios.
+## 📌 Evolución del Proyecto
+
+Este repositorio documenta el desarrollo progresivo del simulador para la máquina tragamonedas inspirada en el problema de la maratón internacional *Slot Machine* (2025). A lo largo del semestre, este espacio irá evolucionando ciclo a ciclo para reflejar el avance del código, las decisiones de diseño UML y la incorporación de nuevas funcionalidades.
 
 ---
 
-## Retrospectiva
+## 🚀 Estado de los Ciclos
 
-### 1. Mini-ciclos definidos
-* **MC1 (Estructura Base):** `SlotMachine()`, `makeVisible()`, `makeInvisible()`, `ok()`, `exit()`.
-* **MC2 (Ruedas):** `addWheel()`, `delWheel()`, `relocateWheels()`.
-* **MC3 (Símbolos):** Extensión de `Canvas` (colores CSS), `addSymbol()`, `delSymbol()`, `placeSymbol()`.
-* **MC4 (Juego y Consultas):** `spin()`, `symbols()`, `configuration()`, `distinctSymbols()`, `isJackpot()`, `updateLook()`.
+* **Ciclo 1: Simulador Base y Modelo Inicial (🟢 Completado)**  
+  Construcción de la estructura base del simulador en Java/BlueJ, modelos de secuencia y clases en Astah, gestión de ruedas y símbolos con estándar CSS, lógica de giros (`spin`) y estado ganador (`isJackpot`)[cite: 1].
+  
+* **Ciclo 2: [Próximamente]**  
+  *Espacio reservado para la siguiente iteración.*
 
-### 2. Estado actual
-**100% completado** .
+* **Ciclo 3: [Próximamente]**  
+  *Espacio reservado para la entrega final.*
 
-### 3. Tiempo invertido
-* **David Santiago:** 8 Horas
-* **Juan Camilo:** 8 Horas
-* **Total:** 16 Horas
+---
 
-### 4. Mayor logro
-Lograr hacer funcionar la maquina mientras aprendíamos en el proceso
-
-### 5. Mayor problema técnico y solución
-El desfase de índices en `Wheel` tras cambiar los símbolos. Ademas de combinarlo con shapes
-
-### 6. Trabajo en equipo
-* **Bien:** Buena comunicación y división clara por mini-ciclos.
-* **A mejorar:** Integrar pruebas automatizadas (JUnit) desde el inicio y mejorar a la hora de hacer codigo (falta experiencia)
-
-### 7. Práctica XP más útil
-**Diseño Sencillo (Simple Design)**, al mantener métodos cortos (menos de una pantalla) y modulares.
-
-### 8. Referencias
-1. Escuela Colombiana de Ingeniería. (2026). *DOPO: Proyecto Inicial Ciclo 1*.
-2. Barker, J. (2005). *Beginning Java Objects*. Apress.
-3. Oracle. (2023). *Java API Documentation*.
