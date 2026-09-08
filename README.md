@@ -17,9 +17,8 @@ Este repositorio documenta el desarrollo progresivo del simulador para la máqui
 * **Ciclo 1: Simulador Base y Modelo Inicial (🟢 Completado)**  
   Construcción de la estructura base del simulador en Java/BlueJ, modelos de secuencia y clases en Astah, gestión de ruedas y símbolos con estándar CSS, lógica de giros (`spin`) y estado ganador (`isJackpot`).
   
-* **Ciclo 2: [Próximamente]**  
-  *Espacio reservado para la siguiente iteración.*
-
+* **Ciclo 2:Pruebas y Expansión Gráfica (🟢 Completado)**  
+  Integración de pruebas automatizadas con JUnit (SlotMachineC2Test), incorporación de nuevas figuras geométricas (Triangle) y gestión avanzada de colores (ColorPalette), garantizando la estabilidad del modelo tras la refactorización.
 * **Ciclo 3: [Próximamente]**  
   *Espacio reservado para la entrega final.*
 
