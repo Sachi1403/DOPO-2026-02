@@ -23,5 +23,7 @@ Este repositorio documenta el desarrollo progresivo del simulador para la máqui
 * **Ciclo 3: Refactoring y Extensión (🟢 Completado)**
   Resolución del problema de la maratón de programación implementando el método `solve` y simulación de la secuencia ganadora con el método `simulate`. Extensión de la herramienta de pruebas para crear máquinas inicializadas aleatoriamente con igual número de ruedas y símbolos.
 
+* **Ciclo 4: [Proximamente]**
+  
 ---
 
