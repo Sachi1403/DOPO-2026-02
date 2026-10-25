@@ -23,6 +23,7 @@ Este repositorio documenta el desarrollo progresivo del simulador para la máqui
 * **Ciclo 3: Refactoring y Extensión (🟢 Completado)**
   Resolución del problema de la maratón de programación implementando el método `solve` y simulación de la secuencia ganadora con el método `simulate`. Extensión de la herramienta de pruebas para crear máquinas inicializadas aleatoriamente con igual número de ruedas y símbolos.
 
-* **Ciclo 4: [Proximamente]**
+* **Ciclo 4 y 5: Entrega final (🟢 Completado)**
+  Extensión del simulador incorporando nuevos comportamientos para ruedas (lefty, rebel) y símbolos (ephemeral, shy, y uno personalizado), priorizando la extensibilidad del diseño estructural. El cierre incluye la migración del proyecto a VS Code y la evaluación de la calidad del software mediante herramientas de análisis dinámico (cubrimiento con JaCoCo) y estático (reglas PMD)
 ---
 
